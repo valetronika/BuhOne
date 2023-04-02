@@ -1,0 +1,124 @@
+@media (max-width: 1350px) {
+    /* burger */
+    .menu_icon {
+        display: block;
+        position: absolute;
+        z-index: 30;
+        right: 20%;
+        top: 10px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        position: fixed;
+
+        background-color: #ffffff;
+        width: 30%;
+        height: 100%;
+        top: 0;
+        justify-content: center;
+        gap: 60px;
+        z-index: 1;
+        font-size: 20px;
+        right: -100%;
+        transition-duration: 1000ms;
+    }
+    .nav .active {
+        right: 0%;
+        transition-duration: 500ms;
+    }
+}
+/* @media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+} */
+@media (max-width: 803px) {
+    .min_w_803 {
+        display: none;
+    }
+    .our_services {
+        padding: 63px 93px;
+    }
+    .our_servicesContent {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .about_us {
+        margin: 66px 85px 76px;
+        flex-direction: column;
+    }
+    .about_us_content .text_about {
+        width: 100%;
+        margin: 35px auto;
+    }
+    .about_us_container_with_blocks {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .aboutCont {
+        padding: 33px 40px 33px 40px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aboutCont .infoEl {
+        width: 120px;
+        padding: 0;
+    }
+    .aboutCont a {
+        padding: 0;
+    }
+/* !========== contact_us ========== --> */
+.contact_us {
+    padding: 120px 85px 159px 95px;
+flex-direction: column;
+height: 100%;
+
+}
+.contact_us_contacts{
+width: 625px;
+}
+.num_container{
+    width: 536px;
+    margin-bottom:  76px; 
+}
+.form_contact{
+
+}
+.number{
+    padding: 5px;
+    margin: 0 50px 0 0;
+}
+.phone_img{
+    display: block;
+}
+.num_container{
+    width: 80%;
+    margin: 0;
+    justify-content: space-between;
+}
+.masssage input{
+    width: 100%;
+}
+
+footer{
+    display: none;
+}
+.contact_us_form_contact {
+    position: relative;
+   
+
+}
+.contact_us_form_contact button{
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}
+}
+
+/* @media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+} */
